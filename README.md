@@ -32,7 +32,7 @@ If you want to install a previous fbnet version, such as fbnet v1.0.1, that allo
 ``` r
 install.packages("devtools")
 library(devtools)
-install.packages("fbnet")
+install_github("chernolabs/fbnet")
 library(fbnet)
 ```
 
